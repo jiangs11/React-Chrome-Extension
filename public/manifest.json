@@ -1,0 +1,24 @@
+{
+  "name": "GET URL",
+  "manifest_version": 2,
+  "description": "Trying to get url of current page",
+  "version": "1.0.0",
+
+  "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "GET URL"
+  },
+
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "activeTab"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "web_accessible_resources": [
+    "index.html",
+    "/static/*"
+  ]
+}
