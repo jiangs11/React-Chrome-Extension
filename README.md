@@ -1,3 +1,7 @@
+# Description
+Chrome Extension made with React.
+Just a single button to display the url of the current webpage.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
